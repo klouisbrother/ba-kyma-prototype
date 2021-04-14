@@ -1,0 +1,27 @@
+{
+  "name": "commerce-mock",
+  "description": "A mock of SAP Commerce Cloud",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node . 10000"
+  },
+  "dependencies": {
+    "@varkes/configuration": "0.11.2",
+    "@varkes/api-server": "0.11.2",
+    "@varkes/cockpit": "0.11.2",
+    "@varkes/openapi-mock": "0.11.2",
+    "@varkes/odata-mock": "0.11.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAP/xf-application-mocks"
+  }
+}

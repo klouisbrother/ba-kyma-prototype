@@ -1,5 +1,7 @@
 # Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
+Author: Florian Peschke (info@florianpeschke.de)
+
 # Introduction
 
 This repository contains a Microservice prototype which is based on Kyma Runtime, on SAP Business Technology Platform. The intention of this prototype is to extend a cloud-based e-commerce applications, SAP Commerce Cloud (Hybris) with a Kyma Runtime based Microservice.

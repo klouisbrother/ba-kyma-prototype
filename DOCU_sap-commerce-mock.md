@@ -12,7 +12,7 @@ To connect to this Microservice, the SAP Commerce Mock is used to Trigger Events
 
 4. After some minutes, the commerce-mock application is ready via the URL under Discovery and Network -> API Rules.
 
-|[](images/2021-04-14_sap-commerce-mock_startup.jpg)
+![](images/2021-04-14_sap-commerce-mock_startup.jpg)
 
 # Sources
 

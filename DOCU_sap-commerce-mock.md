@@ -1,4 +1,4 @@
-# Documentation of the Installation of the SAP Commerce mock 
+# Documentation of the Installation of the SAP Commerce Mock 
 
 To connect to this Microservice, the SAP Commerce Mock is used to Trigger Events, send and receive data to and from the Kyma-based Microservice. 
 

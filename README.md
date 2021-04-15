@@ -12,6 +12,14 @@ The prototype was created as part of my Bachelor-Thesis with the translated titl
 
 To connect to this Microservice, the SAP Commerce Mock is used to Trigger Events, send and receive data to and from the Kyma-based Microservice. Kyma is used as Runtime on the SAP Business Technology Platform (Trialversion: https://www.sap.com/cmp/td/sap-cloud-platform-trial.html).
 
+# Documentation explaination
+
+- For each part of chapter 4.3 a documentation in form of a README.md file was created. Decribing:
+- 4.3.1: Installation of Prerequisites (SAP Commerce Mock, Setup of kubectl, tools)
+- 4.3.2: Installation of order-service (Microservice)
+- 4.3.3: Configuration of connection between order-service and SAP Commerce (Mock)
+- 4.3.4: Test of order function
+
 # Use-Case
 
 -- Use Case Description --

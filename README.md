@@ -11,10 +11,18 @@ The prototype was created as part of my Bachelor-Thesis with the translated titl
 # Documentation structure
 
 For each part of chapter 4.3 a documentation in form of a README.md file was created. Decribing:
-- 4.3.1: Installation of Prerequisites (SAP Commerce Mock, Setup of kubectl, tools)
+- [Chapter 4.3.1: Prerequisites for implementation](documentation\4.3.1_prerequisites.md) 
+ 
+
+
+
+4.3.1: Installation of Prerequisites (SAP Commerce Mock, Setup of kubectl, tools) 
 - 4.3.2: Installation of order-service (Microservice)
 - 4.3.3: Configuration of connection between order-service and SAP Commerce (Mock)
 - 4.3.4: Test of order function
+
+documentation\4.3.1_prerequisites.md 
+
 
 # Use-Case
 

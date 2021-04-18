@@ -17,7 +17,7 @@ The prototype was created as part of my Bachelor-Thesis with the translated titl
 ## Documentation structure
 
 For each part of chapter 4.3 a documentation in form of a README.md file was created. Decribing:
-- [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.1_prerequisites.md) 
-- [Chapter 4.3.2: Implementation of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.2_implementation.md) 
-- [Chapter 4.3.3: Connection to SAP Commerce Mock](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.3_connection.md) 
-- [Chapter 4.3.4: Testing of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.4_testing.md) 
+* [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.1_prerequisites.md) 
+* [Chapter 4.3.2: Implementation of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.2_implementation.md) 
+* [Chapter 4.3.3: Connection to SAP Commerce Mock](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.3_connection.md) 
+* [Chapter 4.3.4: Testing of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.4_testing.md) 

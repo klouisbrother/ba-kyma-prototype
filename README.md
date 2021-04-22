@@ -1,4 +1,4 @@
-# Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
+## Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
 Author: Florian Peschke (info@florianpeschke.de)
 
@@ -10,13 +10,25 @@ The prototype was created as part of my Bachelor-Thesis with the translated titl
 
 ## Use-Case
 
--- Use Case Description --
+The the kyma-based m
 
 -- Use Case Diagram --
 
+
+## Re-used Github repositories
+
+The following repositories have been forked and included in this Repository and are mentioned in the documentation
+
+* orders-service - add link
+* sap-commerce-mock - add link
+* MS Azure Database
+
+Each source is mentioned in the further documentatio of the implementation.
+
 ## Documentation structure
 
-For each part of chapter 4.3 a documentation in form of a README.md file was created. Decribing:
+For each part of chapter 4.3 a documentation in form of a README.md file was created.
+
 * [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.1_prerequisites.md) 
 * [Chapter 4.3.2: Implementation of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.2_implementation.md) 
 * [Chapter 4.3.3: Connection to SAP Commerce Mock](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.3_connection.md) 

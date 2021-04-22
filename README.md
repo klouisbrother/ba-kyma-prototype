@@ -1,25 +1,30 @@
 # Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
 Bachelor-Thesis in Business Informatics (Wirtschaftsinformatik) 
+
 Original german title: Microserivices zur Erweiterung von cloudbasierten E-Commerce-Applikationen
+
 Institute: FOM Hochschule für Oekonomie & Management
-Author: Florian Peschke (info@florianpeschke.de)
+
 
 ## Introduction
 
-This repository contains all binaris and documentation of the created Microservice prototype, as part of my Bachelor-Thesis. The prototype is based on the Kyma Runtime, provided by the SAP Business Technology Platform (SAP BTP). 
+This repository contains all binaris and documentation of the created Microservice-Prototype, as part of my Bachelor-Thesis with the translated English title "Microservices to extend cloud-based e-commerce applications" at FOM Hochschule für Oekonomie & Management, in Munich, Germany. 
 
-The intention of the prototype is to extend a cloud-based monolithic e-commerce applications with a Microservice, by usage of the SAP Commerce Cloud (Hybris) and the Kyma Runtime of SAP BTP.
+With chapter 4 of this Thesis the questions "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?" should be answered.
 
-The prototype was created as part of my Bachelor-Thesis with the translated title "Microservices to extend cloud-based e-commerce applications" at FOM Hochschule für Oekonomie & Management, in Munich, Germany. The Bachelor-Thesis and the Prototype has been created in the time between March and June 2021.
+To answer this question the Microservice should be implemented by using the Kyma-Runtime provided via the SAP Business Technology Platform (SAP BTP). The kyma-based Microservice which should be implemented, should be able to extend the monolithic SAP Commerce Cloud application.
+
+The Bachelor-Thesis and the related Prototype has been created in the time between March and June 2021.
+
 
 ## Use-Case
 
-As the intention of the Prototype is the extension of a monolithic e-commerce application using Microservices, the example Use-Case will be used to point out the features of this approach., to answer the key question "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?".
-
-To answer this question, a kyma-based Microservice should be implemented to be able to extend the monolithic SAP Commerce Cloud application. The monolithic application should be able to trigger an event to the created Microservice and perform the additional business functionality. For this the use-case of creating and storing an order was choosen and is summarized in the following diagram. 
+As the intention of the Prototype is the extension of a monolithic e-commerce application using Microservices, the Use-Case will leverage the example of a created order. The SAP-Commerce-Cloud application should be able to trigger an event to the created Microservice and perform the additional business functionality. In this case the functionality is storing the data permanently. The architecture is shown in the following diagram below. 
 
 ![](images/-- Use Case Diagram --)
+
+After the implementation of the Microservice-Prototype, the implementation will be evaluated againced the in chapter 3 elaborated success factors by performing interviews with topic experts. 
 
 
 ## Re-used Github repositories

@@ -40,7 +40,7 @@ For the prototype serveral already existing code publicly available code parts h
 
 The prototyping process of the bachelor-thesis is decribed in detailed in chapter 4.3. To document the technical details the following documentation file have been created and added to this Repository [klouisbrother/ba-kyma-prototype](https://github.com/klouisbrother/ba-kyma-prototype). By following these chapters, you are able to follow the implementation of the prototype in detail.
 
-* [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.1_prerequisites.md) 
-* [Chapter 4.3.2: Implementation of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.2_implementation.md) 
-* [Chapter 4.3.3: Connection of Microservice and SAP Commerce](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.3_connection.md) 
-* [Chapter 4.3.4: Testing of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.4_testing.md) 
+* [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/4.3.1_prerequisites/4.3.1_prerequisites.md) 
+* [Chapter 4.3.2: Implementation of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.2_implementation/4.3.2_implementation.md) 
+* [Chapter 4.3.3: Connection of Microservice and SAP Commerce](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.3_connectionn/4.3.3_connection.md) 
+* [Chapter 4.3.4: Testing of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.4_testing/4.3.4_testing.md) 

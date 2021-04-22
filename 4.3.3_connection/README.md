@@ -44,4 +44,4 @@ As an example of the event driven architecture, the "Order Created" Event will b
 
 With this chapter the SAP Commerce Mock and the Microservice have been registered, connected and one events trigger got configured. As next step the connection and functionality has to be tested.
 
-[Next - Chapter 4.3.4: Testing of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.4_testing/README.md)  
+[Next - Chapter 4.3.4: Testing of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.4_testing)  

@@ -79,4 +79,4 @@ kubectl apply -f https://raw.githubusercontent.com/SAP/xf-application-mocks/mast
 
 With this chapter the SAP Commerce Mock as consuming and monolithic e-commerce application was provisioned. As next step the implementation of the Microservice will be performed.
 
-[Next - Chapter 4.3.2: Implementation of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.2_implementation/README.md) 
+[Next - Chapter 4.3.2: Implementation of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.2_implementation) 

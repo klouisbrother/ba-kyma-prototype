@@ -1,6 +1,7 @@
-## Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
+# Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
 Author: Florian Peschke (info@florianpeschke.de)
+-- Add further details --
 
 ## Introduction
 
@@ -10,9 +11,9 @@ The prototype was created as part of my Bachelor-Thesis with the translated titl
 
 ## Use-Case
 
-The the kyma-based m
+The the kyma-based Microservice should be able to process an event which can be triggered by a monolithic application like the SAP Commerce Cloud. This should show the possibilities of Kyma. This should include the Service Catalog, Service Mesh and xxxx
 
--- Use Case Diagram --
+![](images/-- Use Case Diagram --)
 
 
 ## Re-used Github repositories

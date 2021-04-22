@@ -1,36 +1,41 @@
 # Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
+Bachelor-Thesis in Business Informatics (Wirtschaftsinformatik) 
+Original german title: Microserivices zur Erweiterung von cloudbasierten E-Commerce-Applikationen
+Institute: FOM Hochschule für Oekonomie & Management
 Author: Florian Peschke (info@florianpeschke.de)
--- Add further details --
 
 ## Introduction
 
-This repository contains a Microservice prototype which is based on Kyma Runtime, on SAP Business Technology Platform. The intention of this prototype is to extend a cloud-based e-commerce applications, SAP Commerce Cloud (Hybris) with a Kyma Runtime based Microservice.
+This repository contains all binaris and documentation of the created Microservice prototype, as part of my Bachelor-Thesis. The prototype is based on the Kyma Runtime, provided by the SAP Business Technology Platform (SAP BTP). 
 
-The prototype was created as part of my Bachelor-Thesis with the translated title "Microservices to extend cloud-based e-commerce applications" at FOM Hochschule für Oekonomie & Management, in Munich, Germany. The Bachelor-Thesis and the kyma-prototype has been created in the time between 2021-02-23 and 2021-06-22.
+The intention of the prototype is to extend a cloud-based monolithic e-commerce applications with a Microservice, by usage of the SAP Commerce Cloud (Hybris) and the Kyma Runtime of SAP BTP.
+
+The prototype was created as part of my Bachelor-Thesis with the translated title "Microservices to extend cloud-based e-commerce applications" at FOM Hochschule für Oekonomie & Management, in Munich, Germany. The Bachelor-Thesis and the Prototype has been created in the time between March and June 2021.
 
 ## Use-Case
 
-The the kyma-based Microservice should be able to process an event which can be triggered by a monolithic application like the SAP Commerce Cloud. This should show the possibilities of Kyma. This should include the Service Catalog, Service Mesh and xxxx
+As the intention of the Prototype is the extension of a monolithic e-commerce application using Microservices, the example Use-Case will be used to point out the features of this approach., to answer the key question "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?".
+
+To answer this question, a kyma-based Microservice should be implemented to be able to extend the monolithic SAP Commerce Cloud application. The monolithic application should be able to trigger an event to the created Microservice and perform the additional business functionality. For this the use-case of creating and storing an order was choosen and is summarized in the following diagram. 
 
 ![](images/-- Use Case Diagram --)
 
 
 ## Re-used Github repositories
 
-The following repositories have been forked and included in this Repository and are mentioned in the documentation
+For the prototype serveral already existing code publicly available code parts have been used. These parts of these repositories have been included in this Repository [klouisbrother/ba-kyma-prototype](https://github.com/klouisbrother/ba-kyma-prototype). The original sources are available as documented below and mentioned in the created documentation of the prototyping process.
 
-* orders-service - add link
-* sap-commerce-mock - add link
-* MS Azure Database
+* [kyma-project/examples/orders-service](https://github.com/kyma-project/examples/tree/main/orders-service)
+* [SAP-samples/xf-application-mocks/commerce-mock](https://github.com/SAP-samples/xf-application-mocks/tree/master/commerce-mock)
+* [SAP-samples/kyma-runtime-extension-samples/database-azure-mssql](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql)
 
-Each source is mentioned in the further documentatio of the implementation.
 
 ## Documentation structure
 
-For each part of chapter 4.3 a documentation in form of a README.md file was created.
+The prototyping process of the bachelor-thesis is decribed in detailed in chapter 4.3. To document the technical details the following documentation file have been created and added to this Repository [klouisbrother/ba-kyma-prototype](https://github.com/klouisbrother/ba-kyma-prototype). By following these chapters, you are able to follow the implementation of the prototype in detail.
 
 * [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.1_prerequisites.md) 
-* [Chapter 4.3.2: Implementation of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.2_implementation.md) 
-* [Chapter 4.3.3: Connection to SAP Commerce Mock](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.3_connection.md) 
-* [Chapter 4.3.4: Testing of the functionality](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.4_testing.md) 
+* [Chapter 4.3.2: Implementation of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.2_implementation.md) 
+* [Chapter 4.3.3: Connection of Microservice and SAP Commerce](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.3_connection.md) 
+* [Chapter 4.3.4: Testing of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/documentation/4.3.4_testing.md) 

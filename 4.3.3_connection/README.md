@@ -5,6 +5,7 @@ Within this chapter the following steps will be performed and are described belo
 * Connect Commerce-Mock as external application
 * Create the event trigger
 
+These setup of the connection is documented further below.
 
 ## Connect Commerce-Mock as external application 
 

@@ -5,6 +5,7 @@ Within this part the implemented and exposed sap-commerce-mock will be tested an
 * Test the Microservice by triggering an event from the SAP Commerce Mock
 * Validating the event data stored in the Microservice / MS Azure Database
 
+The validation is documented further below.
 
 ## Test the Microservice by triggering an event from the SAP Commerce Mock
 

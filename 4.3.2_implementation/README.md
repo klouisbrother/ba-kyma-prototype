@@ -4,7 +4,7 @@ Within this chapter the following steps will be performed and are described belo
 
 * Create new "orders-service" namespace and deploy the Microservices "orders-service"
 * Expose the microservice to other ressources outsite of the cluster
-* Optional: Enhancement with MS Azure SQL database
+* Optional: Enhancement with permanent database storage
 
 These steps are documented further below.
 
@@ -87,47 +87,28 @@ curl -ik https://orders-service.c-293e5fa.kyma.shoot.live.k8s-hana.ondemand.com/
 ![](images/02_06_Orders-service_Orderdata.png)
 
 
-## Optional: Enhancement with MS Azure SQL database
+## Optional: Enhancement with permanent database storage
 
-By now the microservice uses an in-memory storage, which means every time on of the related pods of the microservice "orders-service" will be terminated, the data will be erased. 
+After some first tests, it was clear that by now the microservice uses an in-memory storage. This means every time on of the related pods of the microservice "orders-service" will be terminated, the data will be erased. To avoid this and be able to permanently store the collected data, this optional enhancement step of integration of a database via the Kyma Service Catalog can been performed. 
 
-To avoid this and be able to permanently store the collected data, this optional enhancement step of integration of a database via the Kyma Service Catalog can been performed. 
-
-The initial idea was to integrate a custom Redis service, which provides the possibilities to use a [Redis Database](https://redis.io/), as further described on the [Kyma-Project: Getting Started, Version 1.21 (latest): Add the redis service](https://kyma-project.io/docs/root/getting-started#getting-started-add-the-redis-service) guide.
+To overcome this point, the initial idea was to integrate a custom Redis service, which provides the possibilities to use a [Redis Database](https://redis.io/), as further described on the [Kyma-Project: Getting Started, Version 1.21 (latest): Add the redis service](https://kyma-project.io/docs/root/getting-started#getting-started-add-the-redis-service) guide.
 
 After some quick review of the guide and some initial configurations, it was not possible to add the [Redis Database](https://redis.io/) service. 
 
-After further checking with the [SAP Community](https://answers.sap.com/answers/13349083/view.html), Marco Dorn (username) brought up the answer and reasion that the Kyma Runtime Environment on SAP BTP, in Version 1.21, does currently not provide a full cluster access. Due to this adding a custom service is not possible at the moment, but should be available in the future.
+By checking with the [SAP Community](https://answers.sap.com/answers/13349083/view.html), Marco Dorn (username) brought up the answer and reasion that the Kyma Runtime Environment on SAP BTP, in Version 1.21, does currently not provide a full cluster access. Due to this adding a custom service is not possible at the moment, but should be available in the future.
 
-Further Jamie Cawley (username) as members of the [SAP Community decribed an alternative](https://answers.sap.com/answers/13350157/view.html) to use as direct replacement a [MS SQL database](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql) provided by Microsoft Azure. These steps will be decribed as following below.
+Further Jamie Cawley (username) as members of the [SAP Community decribed an alternative](https://answers.sap.com/answers/13350157/view.html) to use as direct replacement a [MS SQL database](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql) provided by Microsoft Azure via the Open Service Broker.
 
-1. 
+As for this a provisioning of a Microservice Azure Account would be needed, which is not available at this time and also not the central part to answer the question of this chapter, the enhancement with a permanent database storage was not implemented and can be seen as optional enhancement to the Microservice.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Additonal Information, maybe also use full: [SAP Developers: Deploy MSSQL in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-full-stack.html)
 
 ## Sources
 
 * Guide: [Kyma-Project: Getting Started, Version 1.21 (latest)](https://kyma-project.io/docs/root/getting-started/#getting-started-create-a-namespace) 
 * Repository: [kyma-project/examples/orders-service](https://github.com/kyma-project/examples/tree/main/orders-service) and cloned into this Repository under [ba-kyma-prototype/4.3.2_implementation/orders-service](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.2_implementation/orders-service)
-* Repository: [SAP-samples/kyma-runtime-extension-samples/database-azure-mssql](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql)
 * Helpful input: [SAP Blogs: SAP Cloud Platform, Kyma runtime: Mock Applications](https://blogs.sap.com/2020/06/17/sap-cloud-platform-extension-factory-kyma-runtime-mock-applications)
-* More helpful input :thumbsup: : [SAP Community: Add external Service to Kyma not possible in Trial](https://answers.sap.com/questions/13348971/add-external-service-to-kyma-not-possible-in-trial.html?childToView=13350157#answer-13350157)
-
-
+* Very helpful input :thumbsup:: [SAP Community: Add external Service to Kyma not possible in Trial](https://answers.sap.com/questions/13348971/add-external-service-to-kyma-not-possible-in-trial.html?childToView=13350157#answer-13350157)
+* Repository: [SAP-samples/kyma-runtime-extension-samples/database-azure-mssql](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql)
 
 
 ## Summary and next step

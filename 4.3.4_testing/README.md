@@ -37,7 +37,7 @@ To test if the configuration was done successfully, one of the pre-defined "SAP 
 ![](images/04_01_Trigger_order.created.v1_event.png)
 
 
-## Validating the event data stored in the Microservice / MS Azure Database
+## Validating the event data stored in the Microservice
 
 1. By calling the microservice with the following command, we can verify that the event details were saved.
 

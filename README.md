@@ -18,7 +18,7 @@ The Bachelor-Thesis and the related Prototype has been created in the time betwe
 
 ## Use-Case
 
-As the intention of the Prototype is the extension of a monolithic e-commerce application using Microservices, the Use-Case will leverage the example of a created order. The SAP-Commerce-Cloud application should be able to trigger an event to the created Microservice and perform the additional business functionality. In this case the functionality is storing the data permanently. The architecture is shown in the following diagram below. 
+As the intention of the Prototype is the extension of a monolithic e-commerce application using Microservices, the Use-Case will leverage the example of a created order. The SAP-Commerce-Cloud application should be able to trigger an event to the created Microservice and perform the additional business functionality. The functionality is shown in the use case diagram below.
 
 ![](images/-- Use Case Diagram --)
 

@@ -117,19 +117,7 @@ Further Jamie Cawley (username) as members of the [SAP Community decribed an alt
 
 
 
-
------------------------------------
-
-
-
-
-[SAP Developers: Deploy MSSQL in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-full-stack.html)
-
-
-
-
--------------------
-
+Additonal Information, maybe also use full: [SAP Developers: Deploy MSSQL in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-full-stack.html)
 
 ## Sources
 
@@ -138,7 +126,9 @@ Further Jamie Cawley (username) as members of the [SAP Community decribed an alt
 * Repository: [SAP-samples/kyma-runtime-extension-samples/database-azure-mssql](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql)
 * Helpful input: [SAP Blogs: SAP Cloud Platform, Kyma runtime: Mock Applications](https://blogs.sap.com/2020/06/17/sap-cloud-platform-extension-factory-kyma-runtime-mock-applications)
 * More helpful input :thumbsup: : [SAP Community: Add external Service to Kyma not possible in Trial](https://answers.sap.com/questions/13348971/add-external-service-to-kyma-not-possible-in-trial.html?childToView=13350157#answer-13350157)
- 
+
+
+
 
 ## Summary and next step
 

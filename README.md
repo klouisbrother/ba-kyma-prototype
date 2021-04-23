@@ -31,7 +31,6 @@ For the prototype serveral already existing code publicly available code parts h
 
 * [kyma-project/examples/orders-service](https://github.com/kyma-project/examples/tree/main/orders-service)
 * [SAP-samples/xf-application-mocks/commerce-mock](https://github.com/SAP-samples/xf-application-mocks/tree/master/commerce-mock)
-* [SAP-samples/kyma-runtime-extension-samples/database-azure-mssql](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/master/database-azure-mssql)
 
 
 ## Documentation structure

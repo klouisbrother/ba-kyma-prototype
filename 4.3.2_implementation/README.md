@@ -25,7 +25,7 @@ kubectl create ns orders-service
 kubectl get ns orders-service -o=jsonpath="{.status.phase}"
 ```
 
-![](images/02_01_Kyma_CreateNamespace_orders-service.png)
+![](images/02_01_Kyma_CreateNamespace_orders-service.png | width=100)
 
 3. Create a Deployment that provides the microservice definition and enables you to run it on the cluster. The Deployment uses the `eu.gcr.io/kyma-project/pr/orders-service:PR-162` image. This Docker image exposes the `8080` port on which the related Service is listening.
 

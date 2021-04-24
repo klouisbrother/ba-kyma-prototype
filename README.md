@@ -1,17 +1,10 @@
 # Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
-Some key and surrounding facts of this Bachelor-Thesis and this repository:
-Bachelor thesis in the Business Informatics (Wirtschaftsinformatik) to achieve the degree of Bachelor of Science (B.Sc.)
-Original German title: "Microservices zur Erweiterung von cloudbasierten E-Commerce-Applikationen"
-Translated English title: "Microservices to extend cloud-based e-commerce applications"
-Institute: FOM Hochschule für Oekonomie & Management
-
-
 ## Introduction
 
-This repository contains all binaries and documentation of the created Microservice-Prototype, as part of my Bachelor-Thesis with the translated English title "Microservices to extend cloud-based e-commerce applications" at FOM Hochschule für Oekonomie & Management, in Munich, Germany. 
+This repository contains all binaries and a documentation of the implemented prototype of a microservice, as part of my Bachelor-Thesis with the original German title: "Microservices zur Erweiterung von cloudbasierten E-Commerce-Applikationen". Meaningful translated the English title is "Microservices to extend cloud-based e-commerce applications". The thesis was submitted in June 2021 to [FOM Hochschule für Oekonomie & Management](https://www.fom.de), Essen, Germany. 
 
-With chapter 4 of this Thesis the questions "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?" should be answered.
+As part ofWith chapter 4 of this Thesis the questions "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?" should be answered.
 
 To answer this question the Microservice should be implemented by using the Kyma-Runtime provided via the SAP Business Technology Platform (SAP BTP). The Kyma-based Microservice which should be implemented, should be able to extend the monolithic SAP Commerce Cloud application.
 

@@ -25,16 +25,16 @@ As the Kyma Runtime Environment on SAP Business Technology Platform (SAP BTP) ba
 
 6. By further accessing the SAP BTP "Trust Configuration", select "Default identity provider", enter the S-User account id and assign the role collect "Kyma_Admin_Role" to it.
 
-7. Go back to "Overview" and access the Kyma Environment in your Subaccount "trial" -> Kyma Environment -> "Link to dashboard". The Kyma Runtime Environment will be started and is ready.
+7. Go back to "Overview" and access the Kyma Environment in your subaccount "trial" -> Kyma Environment -> "Link to dashboard". The Kyma Runtime environment will be started and is ready.
 
 
 ## Setup of the development tools
 
-The following tools must be available, installed and configured for further administration and development with the Kyma Runtime Environment:
+The following tools must be available, installed and configured for further administration and development of the Kyma Runtime environment:
 
-* Code editor, in this case Visual Studio Code is used.
-* Command-line tool, in this case PowerShell is used.
-* Further kubectl needs to be installed on the local machine and the ~.kube/config file needs to be configured with the Kubeconfig settings from the Kyma Runtime (Available under Kyma Environment -> Account -> Get Kubeconfig in the Kyma Environment).
+* Code editor, in this case [Visual Studio Code](https://code.visualstudio.com/) is used.
+* Command-line tool, in this case [PowerShell](https://docs.microsoft.com/de-de/powershell) is used.
+* Further [kubectl](https://kubernetes.io/docs/reference/kubectl) needs to be available on the local machine and the `~.kube/config` file needs to be configured with the Kubeconfig settings from the Kyma Runtime (Available under "Kyma Environment" -> "Account" -> "Get Kubeconfig").
 
 **Note:** The further shown setup steps can be in the most cases performed by command-line and via the Kyma Runtime Environment User Interface.
 

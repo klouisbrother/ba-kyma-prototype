@@ -33,7 +33,7 @@ kubectl get ns orders-service -o=jsonpath="{.status.phase}"
 kubectl apply -f https://raw.githubusercontent.com/kyma-project/examples/master/orders-service/deployment/orders-service-deployment.yaml
 ```
 
-4. Check if the ressources definied in the deployment file have been created. Deployment status will be readyReplicas `1`.
+4. Check if the ressources definied in the deployment file have been created. Deployment status will reflect "readyReplicas" with `1`.
 
 ```
 kubectl get deployment orders-service -n orders-service -o=jsonpath="{.status.readyReplicas}"

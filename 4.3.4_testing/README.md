@@ -1,6 +1,6 @@
 # Chapter 4.3.4: Testing of the Microservice
 
-Within this part the implemented and exposed sap-commerce-mock will be tested and the below steps will be performed.
+Within this part the implemented and exposed sap-commerce-mock will be tested, and the below steps will be performed.
 
 * Test the Microservice by triggering an event from the SAP Commerce Mock
 * Validating the event data stored in the Microservice / MS Azure Database
@@ -9,7 +9,7 @@ The validation is documented further below.
 
 ## Test the Microservice by triggering an event from the SAP Commerce Mock
 
-To test if the configuration was done successfully, one of the pre-defined "SAP Commerce Cloud - Events" has to be triggered. In the further case, is will be demonstrated by using the earlier used business case by triggering the Event "order.created.v1". To send an event from the SAP-Commerce-Mock to the Microservice "orders-service" perform the following steps.
+To test if the configuration was done successfully, one of the pre-defined "SAP Commerce Cloud - Events" must be triggered. In the further case, is will be demonstrated by using the earlier used business case by triggering the Event "order.created.v1". To send an event from the SAP-Commerce-Mock to the Microservice "orders-service" perform the following steps.
 
 1. Go to the "sap-commerce-mock" namespace and access the SAP-Commerce-Mock via the Host-URL under Discovery and Network -> API Rules. 
 
@@ -58,6 +58,6 @@ curl -ik "https://orders-service.c-293e5fa.kyma.shoot.live.k8s-hana.ondemand.com
 
 ## Summary and next step
 
-With this chapter the Microservice has been tested by triggering an order.create event. There for the question "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?" was tried to answer. Within the next part of the Bachelor-Thesis, the implemented Microservice-Prototype will be evaluated againced the in chapter 3 elaborated success factors, by performing interviews with experts. 
+With this chapter the Microservice has been tested by triggering an order.create event. There for the question "How can a prototype of a microservice be implemented based on the Kyma Runtime to extend the SAP Commerce Cloud?" was tried to answer. Within the next part of the Bachelor-Thesis, the implemented Microservice-Prototype will be evaluated against the in chapter 3 elaborated success factors, by performing interviews with experts. 
 
 [Go back to start](https://github.com/klouisbrother/ba-kyma-prototype)

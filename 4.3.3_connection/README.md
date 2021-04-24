@@ -31,7 +31,7 @@ As an example of the event driven architecture, the "Order Created" Event will b
 
 2. In the service detail view click on "Create Event Subscription".
 
-3. Search for the `order.created.v1` which is made available by the sap-commerce-mock application and click on save. The event trigger will be added to the service as shown below. With this step the setup and configuration is done and ready for the first test.
+3. Search for `order.created.v1` which is made available by the sap-commerce-mock application and click on save. The event trigger will be added to the service as shown below. With this step the setup and configuration is done and ready for the first test.
 
 ![](images/03_02_Add_event_to_service.png)
 

@@ -8,7 +8,7 @@ This repository contains all binaries and a documentation of the implemented pro
 
 In chapter 4 of my Thesis, the questions "How can a prototype of a microservice based on Kyma Runtime be implemented to extend the SAP Commerce Cloud?" was posed and should be answered.
 
-Further it was planned to implement a running prototype of a Microservice, which is based on the [Kyma](https://kyma-project.io) Runtime provisioned on the [SAP Business Technology Platform (SAP BTP)](https://www.sap.com/germany/products/business-technology-platform.html). Herefor the Microservice should be able to extend the monolithic [SAP Commerce Cloud](https://www.sap.com/germany/products/crm/e-commerce-platforms.html) application. The central intentions are on showing the concepts of Kyma to extend the SAP Commerce Cloud, an less on the specific implementation of functionality.
+Further it was planned to implement a running prototype of a Microservice, which is based on the [Kyma](https://kyma-project.io) Runtime provisioned on the [SAP Business Technology Platform (SAP BTP)](https://www.sap.com/germany/products/business-technology-platform.html). Herefor the Microservice should be able to extend the monolithic [SAP Commerce Cloud](https://www.sap.com/germany/products/crm/e-commerce-platforms.html) application. The central intentions are to show the concepts of Kyma to extend a SAP Commerce Cloud system and less on the implementation of a specific functionality.
 
 
 ## Use-Case

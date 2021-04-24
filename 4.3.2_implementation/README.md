@@ -1,6 +1,6 @@
 # Chapter 4.3.2: Implementation of the Microservice
 
-Within this chapter the following steps will be performed:
+Within this chapter the following steps have been performed:
 
 * Create new "orders-service" namespace and deploy the microservices "orders-service"
 * Expose the microservice to other resources outside the cluster

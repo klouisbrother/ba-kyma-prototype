@@ -1,6 +1,6 @@
 # Chapter 4.3.1: Prerequisites for implementation
 
-The following steps will be performed to make the necessary prerequisites for the further implementation available: 
+The following steps have been performed to make the necessary prerequisites for the further implementation available: 
 
 * Get access to Kyma runtime on SAP Business Technology Platform
 * Setup of the development tools

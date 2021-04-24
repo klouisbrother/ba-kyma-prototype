@@ -1,23 +1,24 @@
 # Chapter 4.3.3: Connection of Microservice and SAP Commerce
 
-Within this chapter the following steps will be performed and are described below:
+Within this chapter the following steps have been performed:
 
 * Connect Commerce-Mock as external application
 * Create the event trigger
 
-This setup of the connection is documented further below.
+This setup of the connection is documented below.
+
 
 ## Connect Commerce-Mock as external application 
 
-After provisioning the Microservice and the SAP Commerce Mock, let's connect the systems. For this part, the configuration will be shown in the Kyma Runtime Environment UI.
+After provisioning the microservice and the SAP-Commerce-Mock, the systems have to be connected. The configuration is shown in the Kyma Runtime environment UI.
 
-1. In the Kyma Runtime Environment UI access "Integration" -> "Applications/System" and select the "SAP Commerce Mock" which was made available earlier. In this case it is called "mp-sap-commerce-mock".
+1. Access in the Kyma environment UI the menu points "Integration" -> "Applications/System" and select the "SAP Commerce Mock" which was made available earlier. In this case it is called "mp-sap-commerce-mock".
 
-2. A Binding between the e-commerce application and the Microservice "orders-service" namespace must be created, to be able to provide the APIs later on. Herefor click on "Create Binding", select the "orders-service" namespace and click on "create".
+2. A binding between the e-commerce application and the microservice "orders-service" namespace must be created, to be able to provide the APIs later on. Herefor click on "Create Binding", select the "orders-service" namespace and click on "create".
 
-3. Navigate to the "orders-service" namespace an navigate to "Service Management" -> "Catalog". On the "Services" tab, click on the new service "mp-sap-commerce-mock". 
+3. Navigate to the "orders-service" namespace and further to "Service Management" -> "Catalog". On the "Services" tab, click on the new service "mp-sap-commerce-mock". 
 
-4. Click on "Add", enter a name for e.g. "sap-commerce-mock" and select the API by clicking on it, in this case "SAP Commerce Cloud - Events". Confirm the entries by clicking confirm. With these steps the events have been enabled in the "orders-service" namespace. The activated events API will have after a short time the status `Running` under "Service Management" -> "Instances", as seen below.
+4. Click on "Add", enter a name for e.g. "sap-commerce-mock" and select the API by clicking on it, in this case "SAP Commerce Cloud - Events". Confirm the entries by clicking "Confirm". With these steps the events have been enabled in the "orders-service" namespace. The activated events API will have after a short time the status `Running` under "Service Management" -> "Instances", as seen below.
 
 ![](images/03_01_Connect_to_Commerce-Mock.png)
 

@@ -1,6 +1,6 @@
 # Bachelor-Thesis: Microservices to extend cloud-based e-commerce applications
 
-Some key and surrounding facts:
+Some key and surrounding facts of this Bachelor-Thesis and this repository:
 * Bachelor-Thesis in Business Informatics (Wirtschaftsinformatik) 
 * Original German title: Microserivices zur Erweiterung von cloudbasierten E-Commerce-Applikationen
 * Institute: FOM Hochschule für Oekonomie & Management

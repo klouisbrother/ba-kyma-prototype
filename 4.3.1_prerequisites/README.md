@@ -2,24 +2,24 @@
 
 The following steps will be performed to make the necessary prerequisites for the further implementation available: 
 
-* Access to Kyma runtime on SAP Business Technology Platform
+* Get access to Kyma runtime on SAP Business Technology Platform
 * Setup of the development tools
-* Deploy the SAP Commerce Mock as consuming system into a Kyma Namespace
+* Deploy the SAP Commerce Mock as consuming system into Kyma Namespace
 
-The setup is explained and documented in the follow further.
+These steps are documented below in detail.
 
 
-## Access to Kyma runtime on SAP Business Technology Platform
+## Get access to Kyma runtime on SAP Business Technology Platform
 
-As the Kyma Runtime Environment on SAP Business Technology Platform (SAP BTP) should be used, the access to a system needs to be available. For this prototype a ([trial account of SAP BTP](https://www.sap.com/cmp/td/sap-cloud-platform-trial.html)) will be used. To access this account and activate the Kyma Runtime, the following steps have been performed:
+As the Kyma Runtime Environment on SAP Business Technology Platform (SAP BTP) basic infrastructure, access to the system needs to be available. For this prototype a ([trial account of SAP BTP](https://www.sap.com/cmp/td/sap-cloud-platform-trial.html)) will be used. To access this account and activate the Kyma Runtime, the following steps have been performed:
 
-1. Registration to the [trial version of SAP BTP](https://www.sap.com/cmp/td/sap-cloud-platform-trial.html) and creation of a new SAP S-User Account.
+1. Registration to the [trial version of SAP BTP](https://www.sap.com/cmp/td/sap-cloud-platform-trial.html) and creation of a new SAP S-User account.
 
 2. Login to the [trial version of SAP BTP](https://www.sap.com/cmp/td/sap-cloud-platform-trial.html) with the created S-User.
 
-3. Enter your "Trial environment", go to "trial account" and click on "Enable Kyma". Enter a name for the new Kyma environment and click on "create" to create to Kyma environment. After around 30 minutes, the Kyma environment is provisioned and available on the SAP Business Technology Platform.
+3. Enter the "Trial environment", go to "trial account" and click on "Enable Kyma". Enter a specific name for the new Kyma environment and click on "Create" to build the Kyma environment. After around 30 minutes, the Kyma environment is provisioned and available on the SAP Business Technology Platform.
 
-4. To be able to access the Kyma environment with the in newly created S-User account, access rights have to be granted as described under [Getting Started in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d1abd18556f24fb091d081b2e3454b8b.html).
+4. To be able to access the Kyma environment with the in newly created S-User account, access rights have to be granted as described in [Getting Started in the Kyma Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d1abd18556f24fb091d081b2e3454b8b.html).
 
 5. Herefore two new roles "KymaRuntimeNamespaceAdmin" and "KymaRuntimeNamespaceDeveloper" must be created and added to the role collection "Kyma_Admin_Role".
 
@@ -39,7 +39,7 @@ The following tools must be available, installed and configured for further admi
 **Note:** The further shown setup steps can be in the most cases performed by command-line and via the Kyma Runtime Environment User Interface.
 
 
-## Deploy the SAP Commerce Mock as consuming system into a Kyma Namespace
+## Deploy the SAP Commerce Mock as consuming system into Kyma Namespace
 
 To have a consuming e-commerce application, especially a SAP Commerce Cloud available, a mock version of it will be used. With this pre-configured and Varkes-based [SAP-Commerce-Mock](https://blogs.sap.com/2020/06/17/sap-cloud-platform-extension-factory-kyma-runtime-mock-applications/) it is possible to trigger Events, send and receive data to and from the Kyma-based Microservice. 
 

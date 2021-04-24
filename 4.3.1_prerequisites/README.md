@@ -51,9 +51,7 @@ To have a consuming e-commerce application, especially a SAP Commerce Cloud avai
 kubectl create namespace sap-commerce-mock
 ```
 
-2. Perform the following command, to deploy the [k8s.yaml](https://raw.githubusercontent.com/SAP/xf-application-mocks/master/commerce-mock/deployment/k8s.yaml) from the Repository [SAP-samples/xf-application-mocks](https://github.com/SAP-samples/xf-application-mocks/tree/master/commerce-mock) into the new namespace. 
-
-This source code is also available in this repository under [ba-kyma-prototype/4.3.1_prerequisites/sap-commerce-mock/commerce-mock](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.1_prerequisites/sap-commerce-mock/commerce-mock).
+2. Perform the following command, to deploy the [k8s.yaml](https://raw.githubusercontent.com/SAP/xf-application-mocks/master/commerce-mock/deployment/k8s.yaml) from the Repository [SAP-samples/xf-application-mocks](https://github.com/SAP-samples/xf-application-mocks/tree/master/commerce-mock) into the new namespace. This source code is also available in this repository under [ba-kyma-prototype/4.3.1_prerequisites/sap-commerce-mock/commerce-mock](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.1_prerequisites/sap-commerce-mock/commerce-mock).
 
 ```
 kubectl apply -f https://raw.githubusercontent.com/SAP/xf-application-mocks/master/commerce-mock/deployment/k8s.yaml -n sap-commerce-mock

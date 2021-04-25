@@ -2,13 +2,13 @@
 
 Within this chapter the following steps have been performed:
 
-* Connect Commerce-Mock as external application
+* Connect SAP-Commerce-Mock as external application
 * Create the event trigger
 
 This setup of the connection is documented below.
 
 
-## Connect Commerce-Mock as external application 
+## Connect SAP-Commerce-Mock as external application
 
 After provisioning the microservice and the SAP-Commerce-Mock, the systems have to be connected. The configuration is shown in the Kyma Runtime environment UI.
 

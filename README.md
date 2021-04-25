@@ -47,7 +47,7 @@ By following these chapters, you are able to follow the prototyping process and 
     * Optional: Enhancement with permanent database storage
 
 * [Chapter 4.3.3: Connection of Microservice and SAP Commerce](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.3_connection) 
-    * Connect Commerce-Mock as external application
+    * Connect SAP-Commerce-Mock as external application
     * Create the event trigger
 
 * [Chapter 4.3.4: Testing of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.4_testing) 

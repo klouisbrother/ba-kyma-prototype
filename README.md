@@ -37,9 +37,9 @@ The prototyping process is described in detail in chapter 4.3 of the Bachelor-Th
 By following these chapters, you are able to follow the prototyping process and the taken decisions and steps to implement this prototype of Microservice.
 
 * [Chapter 4.3.1: Prerequisites for implementation](https://github.com/klouisbrother/ba-kyma-prototype/blob/main/4.3.1_prerequisites) 
-** Get access to Kyma runtime on SAP Business Technology Platform
-** Setup of the development tools
-** Deploy the SAP Commerce Mock as consuming system into Kyma Namespace
+    * Get access to Kyma runtime on SAP Business Technology Platform
+    * Setup of the development tools
+    * Deploy the SAP Commerce Mock as consuming system into Kyma Namespace
 
 * [Chapter 4.3.2: Implementation of the Microservice](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.2_implementation) 
 * [Chapter 4.3.3: Connection of Microservice and SAP Commerce](https://github.com/klouisbrother/ba-kyma-prototype/tree/main/4.3.3_connection) 

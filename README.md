@@ -17,7 +17,7 @@ As the intention of this prototype is the extension of the monolithic e-commerce
 
 The concept is summarized in the diagram below.
 
-![](images/-- Use Case Diagram --)
+![](images/00_01_functional-diagram.png)
 
 After the implementation of the prototype, the implementation will be evaluated against the in chapter 3 elaborated success of microservices factors by performing interviews with selected topic experts. 
 

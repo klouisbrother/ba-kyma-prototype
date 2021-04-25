@@ -43,8 +43,6 @@ The following tools must be available, installed and configured for further admi
 
 To have a consuming e-commerce application, especially a SAP Commerce Cloud available, a mock version of it will be used. With this pre-configured and Varkes-based [SAP-Commerce-Mock](https://blogs.sap.com/2020/06/17/sap-cloud-platform-extension-factory-kyma-runtime-mock-applications/) it is possible to trigger events, send and receive data to and from the Kyma-based Microservice. 
 
-### Installation via Command Line
-
 1. Create a new namespace with the following command in Kyma, dedicated for the SAP-Commerce-Mock.
 
 ```
